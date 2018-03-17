@@ -1,0 +1,275 @@
+body {
+    background-color: #9bbfcf;
+    overflow: auto;
+    min-width: 960px; 
+    margin: 0 auto;
+    position: absolute;
+}
+.heading {
+    height: 135px;
+    min-width: 960px; 
+    margin: 0 auto;
+}
+.vertical-line{
+    background-color: #ff971a;
+    position: relative;
+    z-index: 2;
+    height: 473px;
+    width: 7px;
+    display: inline-block;
+    margin: 31px 10px 0px 15%;
+    vertical-align: top;
+}
+.logo {
+    display: inline-block;
+    margin-top: 30px;
+    width: 7em;
+    max-width: 100%;
+}
+.my_name {
+    font-family: 'Didact Gothic';
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 10px;
+    vertical-align: top;
+    color: #253841;
+    font-size: 18px;
+    line-height: 18px;
+}
+.nav{
+    margin-right: 200px;
+    vertical-align: top;
+    float: right;
+}
+.white-box{
+    display: inline-block;
+    height: 33px;
+    width: 117px;
+    border-style: outset;
+    border-color: grey;
+    background-color: white;
+    opacity: 0.7;
+    transform: rotate(-90deg);
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.white-box:hover {opacity: 1}
+.position{
+    margin-left: -70px; 
+}
+
+/*Marcs trial*/
+.hdr_lnks {
+    float: left;
+    text-decoration: none;
+    font-family: 'Didact Gothic';
+    color: black;
+    font-size: 18px;
+    padding: 3px 5px 5px 5px;
+}
+
+/*a{
+   
+}*/
+
+.main {
+    width: 78em;
+    height: 580px;
+    position: relative;
+    margin-left: 77px;
+    margin-top: 20px;
+    background-color: #557483;
+
+}
+h1{
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Raleway';
+    font-size: 55px;
+    color: white;
+    margin-left: 24%;
+    margin-top: 10px;
+    margin-bottom: 3%;
+    width: 500px;
+}
+#developer{
+    margin-left: 25%;
+}
+.left{
+    width: 55%;
+    height: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 64px;
+}
+.main_p {
+    font-family: 'Didact Gothic';
+    display: inline-block;
+    margin-top: 92px;
+    margin-left: 160px;
+    vertical-align: top;
+    color: white;
+    font-size: 18px;
+    line-height: 18px;
+}
+.container {
+    display: inline-block;
+    position: relative;
+    width: 33%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.image {
+  display: block;
+  width: 90%;
+  height: auto;
+  margin-top: 40px;
+}
+
+.imageTwo {
+  width: 90%;
+  height: auto;
+}  
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.social-icons{
+    width: 40%;
+    margin-right: 0px;
+    margin-left: 21%;
+    margin-top: 10%;
+    display: inline-block;
+}
+.icon-pos{
+    margin-left: 40px;
+}
+.footer {
+    margin-top: 110px;
+    display: block;
+    width: 90%;
+    height: 450px;
+}
+h2{
+    font-family: 'Raleway';
+    font-size: 36px;
+    color: #253841;
+    margin-left:64%;
+    margin-top: 6%;
+    margin-bottom: 0px;
+}
+.horizontal_line{
+    background-color: #ff971a;
+    height: 7px;
+    width: 564px;
+    display: inline-block;
+    margin-left: 45.5% ;
+}
+.footer-left{
+    width: 35%;
+    margin-left: 13%;
+    margin-top: 2%;
+    display: inline-block;
+    vertical-align: top;
+}
+.info-icon{
+    margin-top: 16px;
+    vertical-align: top;
+    
+}
+.info{
+    font-family: 'Raleway';
+    font-size: 24px;
+    color: #253841;
+    display: inline-block;
+    width: 80%;
+    margin-left: 4%;
+    margin-top: 23px;
+
+}
+.button{
+    height: 25px;
+    width: 110px;
+    margin-left: 78%;
+    margin-top: 2px;
+    background-color: #ff971a;
+    opacity: 0.6;
+    transition: 0.3s;
+    font-size: 14px;
+    text-align: center;
+    color: #253841;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 2px #253841 solid;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+    
+.button:hover {opacity: 1}
+
+.footer-right{
+    display: inline-block;
+    width: 44%;
+    margin-top: 2%;
+    margin-left: 3%;
+    
+}
+.form-name{
+    font-family: 'Raleway';
+    font-size: 24px;
+    color: #253841;
+    margin: 0px;
+    width: 40%;
+}
+.first_form{
+    width: 100%;
+    padding: 12px 5px;
+    box-sizing: border-box;
+    border: 2px solid #557483;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.second-form{
+    width: 100%;
+    padding: 12px 5px;
+    box-sizing: border-box;
+    border: 2px solid #557483;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.e-mail{
+    width: 49%;
+    display: inline-block;
+}
+.phone{
+    width: 49%;
+    display: inline-block;
+    margin-left: 1%;
+}
+.third-form{
+    width: 100%;
+    height: 110px;
+    padding: 12px 5px;
+    box-sizing: border-box;
+    border: 2px solid #557483;
+    border-radius: 4px;
+    font-size: 14px;
+    resize: none;
+    
+}
+
+
